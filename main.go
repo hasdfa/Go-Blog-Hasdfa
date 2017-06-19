@@ -18,6 +18,10 @@ func unescape(x string) interface{} {
 }
 
 func main() {
+	fmt.Println("Hello World!")
+}
+
+func init() {
 	fmt.Println("Listening on port :3000")
 
 	mongoSession, err := mgo.Dial("localhost")
